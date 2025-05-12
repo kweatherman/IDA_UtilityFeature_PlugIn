@@ -19,16 +19,12 @@ Note unlike the majority of the my other plugins, there is no UI at all for this
 
 * Jump to next, or previous XREF.   
   Use this to help navigate large data blocks/tables, and large functions too.
-
 * Jump to next, or previous address that is not all zeros.  
   Use when navigating large blocks of data to find when it's not all zeros.
-
 * Set DWORD(s), or QWORD(s) at the current selected address.  
   I end up using this one a lot walking through data segments manually fixing virtual function and other tables.
-
-* Function stub renamer. Particularly useful for large IDBs with lots (like hundreds, if not thousands) of little return FALSE/TRUE/NULL stubs. 
-
-  Can save a lot of time avoiding looking at the same simple return stubs over and over again. 
+* Function stub renamer. Particularly useful for large IDBs with lots (like hundreds, if not thousands) of little return FALSE/TRUE/NULL stubs.
+  Can save a lot of time avoiding looking at the same simple return stubs over and over again.  
   **TODO: Based on code patterns and could use more. Make an MR with your added patterns and I'll merge them into the repo.**
 
 ## Installation
