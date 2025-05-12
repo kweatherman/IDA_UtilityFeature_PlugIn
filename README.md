@@ -7,8 +7,15 @@ Utility plugin to add some additional functionality to IDA.
 
 ----
 
-Adds several features that I've added over the years. Mainly for helping with data segments.
-You pretty much have to try it and judge for yourself to find if it's useful or not.
+## Introduction
+
+Adds several features that I've added over the years. Mainly for helping with data segments.  
+You pretty much have to try them out and see if you find them useful, and you probably will.
+
+Note unlike the majority of the my other plugins, there is no UI at all for this one.  
+ It's intended to be operated using configured hotkey command codes. 
+
+## Features
 
 * Jump to next, or previous XREF.   
   Use this to help navigate large data blocks/tables, and large functions too.
@@ -24,8 +31,11 @@ You pretty much have to try it and judge for yourself to find if it's useful or 
   Can save a lot of time avoiding looking at the same simple return stubs over and over again.  
   **TODO: Based on code patterns and could use more. Make an MR with your added patterns and I'll merge them into the repo.**
 
-You'll want at least the first six features on hotkeys.  
-I add this to my "plugins.cfg" like this:
+## Installation
+
+1) Copy the plugin to your IDA Pro plugins directory.
+2) You'll want at least the first six features on hotkeys.  
+   I add this to my "plugins.cfg" like this:
 
 ```ini
 ; Utility plug-in
